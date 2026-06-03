@@ -1,0 +1,40 @@
+{
+  "project_id": "proj_5c6bb1a4ef78",
+  "name": "youtube",
+  "description": "",
+  "os": "windows",
+  "os_version": "win11",
+  "default_browser": "firefox",
+  "test_case_count": 4,
+  "pushed_at": "2026-06-03T07:35:39.562430",
+  "test_cases": [
+    {
+      "test_case_id": "tc_bdd283224a5f",
+      "title": "test1",
+      "flow_name": "test_youtube_search_basic_query_20260514_111608.py",
+      "browser": "firefox",
+      "file": "tests/test1.py"
+    },
+    {
+      "test_case_id": "tc_0fbc3abecb21",
+      "title": "test 2",
+      "flow_name": "test_youtube_search_then_navigate_home_20260514_111919.py",
+      "browser": "firefox",
+      "file": "tests/test_2.py"
+    },
+    {
+      "test_case_id": "tc_87ab49cb7193",
+      "title": "test 4",
+      "flow_name": "test_youtube_subscriptions_redirects_unauthenticated_user_to_signin_20260514_120",
+      "browser": "firefox",
+      "file": "tests/test_4.py"
+    },
+    {
+      "test_case_id": "tc_083b0396125a",
+      "title": "test 3",
+      "flow_name": "test_youtube_search_intellicredence_20260515_055045.py",
+      "browser": "firefox",
+      "file": "tests/test_3.py"
+    }
+  ]
+}
