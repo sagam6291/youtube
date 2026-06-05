@@ -5,14 +5,15 @@
   "os": "windows",
   "os_version": "win11",
   "default_browser": "firefox",
-  "test_case_count": 5,
-  "pushed_at": "2026-06-05T16:09:25.735579",
+  "test_case_count": 6,
+  "pushed_at": "2026-06-05T17:37:52.558537",
   "test_cases": [
     {
       "test_case_id": "tc_bdd283224a5f",
       "title": "test1",
       "flow_name": "test_youtube_search_basic_query_20260514_111608.py",
       "browser": "firefox",
+      "lang": "python",
       "file": "tests/test1.py"
     },
     {
@@ -20,6 +21,7 @@
       "title": "test 2",
       "flow_name": "test_youtube_search_then_navigate_home_20260514_111919.py",
       "browser": "firefox",
+      "lang": "python",
       "file": "tests/test_2.py"
     },
     {
@@ -27,6 +29,7 @@
       "title": "test 4",
       "flow_name": "test_youtube_subscriptions_redirects_unauthenticated_user_to_signin_20260514_120",
       "browser": "firefox",
+      "lang": "python",
       "file": "tests/test_4.py"
     },
     {
@@ -34,6 +37,7 @@
       "title": "test 3",
       "flow_name": "test_youtube_search_intellicredence_20260515_055045.py",
       "browser": "firefox",
+      "lang": "python",
       "file": "tests/test_3.py"
     },
     {
@@ -41,7 +45,16 @@
       "title": "java test 1",
       "flow_name": "YoutubeNavigateSubscriptionsThenMoviesTest_20260605_160746.java",
       "browser": "firefox",
-      "file": "tests/java_test_1.py"
+      "lang": "java",
+      "file": "tests/java_test_1.java"
+    },
+    {
+      "test_case_id": "tc_89084d98e82a",
+      "title": "java code v2",
+      "flow_name": "YoutubeNavigateMoviesThenGamingTest_20260605_173705.java",
+      "browser": "firefox",
+      "lang": "java",
+      "file": "tests/java_code_v2.java"
     }
   ]
 }
