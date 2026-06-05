@@ -6,11 +6,12 @@ _No description provided._
 
 - **OS:** windows (win11)
 - **Default browser:** firefox
-- **Test cases:** 4
+- **Test cases:** 5
 
 ## Layout
 
 - `manifest.json` — machine-readable project metadata
+- `requirements.txt` — Python dependencies required to run the tests
 - `tests/*.py` — generated Selenium scripts (one per test case)
 - `tests/*.json` — per-test metadata sidecars
 
