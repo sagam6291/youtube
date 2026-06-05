@@ -5,8 +5,8 @@
   "os": "windows",
   "os_version": "win11",
   "default_browser": "firefox",
-  "test_case_count": 4,
-  "pushed_at": "2026-06-04T10:02:49.107351",
+  "test_case_count": 5,
+  "pushed_at": "2026-06-05T16:09:25.735579",
   "test_cases": [
     {
       "test_case_id": "tc_bdd283224a5f",
@@ -35,6 +35,13 @@
       "flow_name": "test_youtube_search_intellicredence_20260515_055045.py",
       "browser": "firefox",
       "file": "tests/test_3.py"
+    },
+    {
+      "test_case_id": "tc_26af6cccbd0b",
+      "title": "java test 1",
+      "flow_name": "YoutubeNavigateSubscriptionsThenMoviesTest_20260605_160746.java",
+      "browser": "firefox",
+      "file": "tests/java_test_1.py"
     }
   ]
 }
