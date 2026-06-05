@@ -6,13 +6,15 @@ _No description provided._
 
 - **OS:** windows (win11)
 - **Default browser:** firefox
-- **Test cases:** 5
+- **Test cases:** 6
 
 ## Layout
 
 - `manifest.json` — machine-readable project metadata
-- `requirements.txt` — Python dependencies required to run the tests
-- `tests/*.py` — generated Selenium scripts (one per test case)
+- `requirements.txt` — Python dependencies for pytest tests
+- `tests/*.py` — generated Python + Selenium scripts
+- `pom.xml` — Maven config for JUnit 5 + Selenium-Java tests
+- `tests/*.java` — generated Java + Selenium scripts
 - `tests/*.json` — per-test metadata sidecars
 
 _Pushed by [TesterEye](https://github.com)._
